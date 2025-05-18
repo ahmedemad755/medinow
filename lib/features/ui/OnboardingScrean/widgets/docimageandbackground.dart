@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:medinow/core/theme/style/styles.dart';
 
+// ignore: camel_case_types
 class docimageandbackground extends StatelessWidget {
   const docimageandbackground({super.key});
 
@@ -28,7 +30,7 @@ class docimageandbackground extends StatelessWidget {
           child: Text(
             "best doctor appointment app",
             textAlign: TextAlign.center,
-            style: TextStyles.font32bluebold.copyWith(height: 1.4),
+            style: TextStyles.font32BlueBold.copyWith(height: 1.4),
           ),
         ),
       ],

@@ -19,7 +19,7 @@ class Docapp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'DocApp',
           theme: ThemeData(
-            primaryColor: ColorsManeger.mainblue,
+            primaryColor: ColorsManager.mainBlue,
             // fontFamily: GoogleFonts.poppins().fontFamily,
           ),
           initialRoute: Routes.OnboardingScreen,

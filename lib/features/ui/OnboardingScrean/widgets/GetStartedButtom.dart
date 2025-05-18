@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medinow/features/ui/OnboardingScrean/OnboardingScrean.dart'
-    show HomeScreen;
+import 'package:medinow/core/helper/extentions.dart';
+import 'package:medinow/core/routing/routes.dart';
 
 class GetStartedButtom extends StatelessWidget {
   const GetStartedButtom({super.key});
@@ -12,12 +12,7 @@ class GetStartedButtom extends StatelessWidget {
       child: ElevatedButton(
         onPressed: () {
           //  Add your navigation logic here
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const HomeScreen(),
-            ), // Navigate to a new screen
-          );
+          context.pushNamed(Routes.login);
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.blue, // Match button color

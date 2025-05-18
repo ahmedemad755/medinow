@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// ignore: depend_on_referenced_packages
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:medinow/core/theme/style/styles.dart';
 
@@ -18,7 +19,7 @@ class Doclogandname extends StatelessWidget {
           ),
         ),
         const SizedBox(width: 10), // Space between logo and text
-        Text("Docdoc", style: TextStyles.font24blackweight700),
+        Text("Docdoc", style: TextStyles.font24BlackBold),
       ],
     );
   }

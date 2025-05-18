@@ -1,0 +1,9 @@
+# flutter_native_splash:
+#   color: "#ffffff"
+
+#   image: assets/Splash Screen.png
+
+#   android_12:
+#     image: assets\me.jpg
+#     color: "#ffffff"
+#     image_gravity: center
