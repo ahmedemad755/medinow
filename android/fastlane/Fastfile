@@ -1,0 +1,17 @@
+default_platform(:android)
+
+platform :android do
+  desc "Runs all the tests"
+  lane :firebase_distribution do
+    sh "flutter clean"
+    sh "flutter build apk --release --flavor Production -t lib/main_Production.dart --release"
+      firebase_app_distribution(
+    app: "1:183895804365:android:e1dc69f242c3d281a4dc84",
+    firebase_cli_token:ENV["FIREBASE_CLI_TOKEN"],
+    android_artifact_type:"APK",
+    android_artifact_path:"../build/app/outputs/flutter-apk/app-production-release.apk",
+    testers:"yahiakenawy710@gmail.com",
+    release_notes:"first note"
+  )
+  end
+end

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medinow/features/home/widgets/HomeAppBar.dart';
 
 class Homescrean extends StatelessWidget {
   const Homescrean({super.key});
@@ -6,11 +7,12 @@ class Homescrean extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("HOME SCREAN")),
-      body: Center(
-        child: Text(
-          "THIS IS HOME SCREAN!!!!!!!",
-          style: TextStyle(fontSize: 24),
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Container(
+          width: double.infinity,
+          margin: EdgeInsets.fromLTRB(20, 16, 20, 28),
+          child: Column(children: [HomeAppBar()]),
         ),
       ),
     );

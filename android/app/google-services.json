@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183895804365",
+    "project_id": "flutter-disterebuted",
+    "storage_bucket": "flutter-disterebuted.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183895804365:android:e1dc69f242c3d281a4dc84",
+        "android_client_info": {
+          "package_name": "com.example.medinow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKvSUBH8PhGAvyLXyI-hT-Voo7xQdO-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183895804365:android:f3a50a68ce7eb861a4dc84",
+        "android_client_info": {
+          "package_name": "com.example.medinow.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKvSUBH8PhGAvyLXyI-hT-Voo7xQdO-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
