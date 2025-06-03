@@ -22,7 +22,7 @@ class Docapp extends StatelessWidget {
             primaryColor: ColorsManager.mainBlue,
             // fontFamily: GoogleFonts.poppins().fontFamily,
           ),
-          initialRoute: Routes.OnboardingScreen,
+          initialRoute: Routes.homeScreen,
           onGenerateRoute: appRoutes.generateRoute,
         );
       },

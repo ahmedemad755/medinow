@@ -122,7 +122,7 @@ class TextStyles {
   static TextStyle font15DarkBlueMedium = TextStyle(
     fontSize: 15.sp,
     fontWeight: FontWeightHelper.medium,
-    color: ColorsManager.darkBlue,
+    color: const Color(0xFF242424),
   );
 
   static TextStyle font18DarkBlueBold = TextStyle(

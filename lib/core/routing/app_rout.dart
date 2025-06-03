@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:medinow/core/di/dibendancy_ingection.dart';
 import 'package:medinow/core/routing/routes.dart';
+import 'package:medinow/features/home/ui/homescrean.dart';
 import 'package:medinow/features/logic/login/login_cubit.dart';
 import 'package:medinow/features/logic/signUp/sign_up_cubit.dart';
 import 'package:medinow/features/login/ui/LoginPage.dart' show LoginPage;
@@ -15,7 +16,7 @@ class AppRoutes {
       case Routes.OnboardingScreen:
         return MaterialPageRoute(builder: (_) => OnboardingScrean());
       case Routes.homeScreen:
-        return MaterialPageRoute(builder: (_) => HomeScreen());
+        return MaterialPageRoute(builder: (_) => Homescrean());
       case Routes.login:
         return MaterialPageRoute(
           builder:
