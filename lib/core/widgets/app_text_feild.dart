@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:medinow/core/theme/colors/colors.dart';
-import 'package:medinow/core/theme/style/styles.dart';
+import '../theme/colors/colors.dart';
+import '../theme/style/styles.dart';
 
 class AppTextFormField extends StatefulWidget {
   final EdgeInsetsGeometry? contentPadding;

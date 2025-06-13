@@ -119,6 +119,7 @@ extension DataSourceExtension on DataSource {
           message: ResponseMessage.noInternetConnection,
         );
       case DataSource.defaultError:
+      // ignore: unreachable_switch_default
       default:
         return ApiErrorModel(
           code: ResponseCode.defaultError,

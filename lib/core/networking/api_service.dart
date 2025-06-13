@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:medinow/features/login/model/login_requist_body.dart';
-import 'package:medinow/features/login/model/login_respons.dart';
-import 'package:medinow/features/sign_up/model/signup_requist_body.dart';
-import 'package:medinow/features/sign_up/model/signup_response.dart';
+import '../../features/login/model/login_requist_body.dart';
+import '../../features/login/model/login_respons.dart';
+import '../../features/sign_up/model/signup_requist_body.dart';
+import '../../features/sign_up/model/signup_response.dart';
 import 'package:retrofit/http.dart';
 
-import 'package:medinow/core/networking/api_constants.dart';
+import 'api_constants.dart';
 
 part 'api_service.g.dart';
 

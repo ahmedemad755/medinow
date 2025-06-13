@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medinow/core/theme/style/styles.dart';
+import '../../../core/theme/style/styles.dart';
 import 'package:medinow/features/ui/OnboardingScrean/widgets/GetStartedButtom.dart'
     show GetStartedButtom;
 import 'package:medinow/features/ui/OnboardingScrean/widgets/docLogAndName.dart'
@@ -54,14 +54,14 @@ class OnboardingScrean extends StatelessWidget {
   }
 }
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+// class HomeScreen extends StatelessWidget {
+//   const HomeScreen({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Home Scre')),
-      body: const Center(child: Text('Welcome to the Home Screen!')),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(title: const Text('Home Scre')),
+//       body: const Center(child: Text('Welcome to the Home Screen!')),
+//     );
+//   }
+// }

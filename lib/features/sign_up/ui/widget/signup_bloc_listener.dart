@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medinow/core/helper/extentions.dart';
-import 'package:medinow/core/routing/routes.dart';
-import 'package:medinow/core/theme/colors/colors.dart';
-import 'package:medinow/core/theme/style/styles.dart';
-import 'package:medinow/features/logic/signUp/sign_up_cubit.dart';
-import 'package:medinow/features/logic/signUp/sign_up_state.dart';
+import '../../../../core/helper/extentions.dart';
+import '../../../../core/routing/routes.dart';
+import '../../../../core/theme/colors/colors.dart';
+import '../../../../core/theme/style/styles.dart';
+import '../../../logic/signUp/sign_up_cubit.dart';
+import '../../../logic/signUp/sign_up_state.dart';
 
 class SignupBlocListener extends StatelessWidget {
   const SignupBlocListener({super.key});

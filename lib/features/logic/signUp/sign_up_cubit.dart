@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medinow/features/data/repo/signup_repo.dart';
-import 'package:medinow/features/logic/signUp/sign_up_state.dart';
-import 'package:medinow/features/sign_up/model/signup_requist_body.dart';
+import '../../data/repo/signup_repo.dart';
+import 'sign_up_state.dart';
+import '../../sign_up/model/signup_requist_body.dart';
 
 class SignupCubit extends Cubit<SignupState> {
   final SignupRepo _signupRepo;

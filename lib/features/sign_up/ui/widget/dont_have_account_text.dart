@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:medinow/core/helper/extentions.dart';
-import 'package:medinow/core/routing/routes.dart';
-import 'package:medinow/core/theme/style/styles.dart';
+import '../../../../core/helper/extentions.dart';
+import '../../../../core/routing/routes.dart';
+import '../../../../core/theme/style/styles.dart';
 
 class DontHaveAccountText extends StatelessWidget {
   const DontHaveAccountText({super.key});

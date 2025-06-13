@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medinow/core/helper/app_regex.dart';
-import 'package:medinow/core/helper/spacing.dart';
-import 'package:medinow/core/widgets/app_text_feild.dart';
-import 'package:medinow/features/logic/signUp/sign_up_cubit.dart';
+import '../../../../core/helper/app_regex.dart';
+import '../../../../core/helper/spacing.dart';
+import '../../../../core/widgets/app_text_feild.dart';
+import '../../../logic/signUp/sign_up_cubit.dart';
 
 class SignupForm extends StatefulWidget {
   const SignupForm({super.key});

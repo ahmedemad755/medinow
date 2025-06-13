@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medinow/core/helper/extentions.dart';
-import 'package:medinow/core/theme/colors/colors.dart';
-import 'package:medinow/core/theme/style/styles.dart';
-import 'package:medinow/features/logic/login/login_cubit.dart';
-import 'package:medinow/features/logic/login/login_state.dart';
+import '../../../core/helper/extentions.dart';
+import '../../../core/theme/colors/colors.dart';
+import '../../../core/theme/style/styles.dart';
+import '../../logic/login/login_cubit.dart';
+import '../../logic/login/login_state.dart';
 
 import '../../../../core/routing/routes.dart';
 

@@ -1,8 +1,8 @@
-import 'package:medinow/core/networking/api_handiler.dart';
-import 'package:medinow/core/networking/api_resultes.dart';
-import 'package:medinow/core/networking/api_service.dart';
-import 'package:medinow/features/sign_up/model/signup_requist_body.dart';
-import 'package:medinow/features/sign_up/model/signup_response.dart';
+import '../../../core/networking/api_handiler.dart';
+import '../../../core/networking/api_resultes.dart';
+import '../../../core/networking/api_service.dart';
+import '../../sign_up/model/signup_requist_body.dart';
+import '../../sign_up/model/signup_response.dart';
 
 class SignupRepo {
   final ApiService _apiService;

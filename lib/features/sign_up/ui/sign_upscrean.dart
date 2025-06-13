@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medinow/core/helper/spacing.dart';
-import 'package:medinow/core/theme/style/styles.dart';
-import 'package:medinow/core/widgets/app_text_buttom.dart';
-import 'package:medinow/features/logic/signUp/sign_up_cubit.dart';
-import 'package:medinow/features/login/widget/terms_and_conditions_text.dart.dart';
-import 'package:medinow/features/sign_up/ui/widget/dont_have_account_text.dart';
 import 'package:medinow/features/sign_up/ui/widget/register_emailAndPassword.dart'
     show SignupForm;
 import 'package:medinow/features/sign_up/ui/widget/signup_bloc_listener.dart';
+
+import '../../../core/helper/spacing.dart';
+import '../../../core/theme/style/styles.dart';
+import '../../../core/widgets/app_text_buttom.dart';
+import '../../logic/signUp/sign_up_cubit.dart';
+import '../../login/widget/terms_and_conditions_text.dart.dart';
+import 'widget/dont_have_account_text.dart';
 
 class SignUpscrean extends StatefulWidget {
   const SignUpscrean({super.key});

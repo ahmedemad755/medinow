@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:medinow/core/routing/app_rout.dart';
-import 'package:medinow/core/routing/routes.dart';
-import 'package:medinow/core/theme/colors/colors.dart';
+import 'package:medinow/core/helper/constans.dart';
+import 'core/routing/app_rout.dart';
+import 'core/routing/routes.dart';
+import 'core/theme/colors/colors.dart';
 // ignore: depend_on_referenced_packages
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -22,7 +23,8 @@ class Docapp extends StatelessWidget {
             primaryColor: ColorsManager.mainBlue,
             // fontFamily: GoogleFonts.poppins().fontFamily,
           ),
-          initialRoute: Routes.homeScreen,
+          initialRoute:
+              isLoggedInUser ? Routes.homeScreen : Routes.OnboardingScreen,
           onGenerateRoute: appRoutes.generateRoute,
         );
       },

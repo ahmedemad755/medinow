@@ -1,4 +1,4 @@
-import 'package:medinow/core/networking/api_handiler.dart';
+import 'api_handiler.dart';
 
 /// القاعدة العامة لنتائج الـ API
 abstract class ApiResultes<T> {

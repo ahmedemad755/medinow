@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medinow/core/helper/extentions.dart';
-import 'package:medinow/core/routing/routes.dart';
+import '../../../../core/helper/extentions.dart';
+import '../../../../core/routing/routes.dart';
 
 class GetStartedButtom extends StatelessWidget {
   const GetStartedButtom({super.key});

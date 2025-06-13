@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medinow/core/helper/spacing.dart';
-import 'package:medinow/core/theme/style/styles.dart';
-import 'package:medinow/core/widgets/app_text_buttom.dart';
-import 'package:medinow/features/logic/login/login_cubit.dart';
-import 'package:medinow/features/sign_up/ui/widget/dont_have_account_text.dart';
-import 'package:medinow/features/login/widget/email_and_passowrd.dart';
-import 'package:medinow/features/login/widget/login_bloc_listener.dart';
-import 'package:medinow/features/login/widget/terms_and_conditions_text.dart.dart';
+import '../../../core/helper/spacing.dart';
+import '../../../core/theme/style/styles.dart';
+import '../../../core/widgets/app_text_buttom.dart';
+import '../../logic/login/login_cubit.dart';
+import '../../sign_up/ui/widget/dont_have_account_text.dart';
+import '../widget/email_and_passowrd.dart';
+import '../widget/login_bloc_listener.dart';
+import '../widget/terms_and_conditions_text.dart.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

@@ -30,3 +30,7 @@ extension Navigation on BuildContext {
     return Navigator.popUntil(this, ModalRoute.withName(routeName));
   }
 }
+
+extension StringExtension on String? {
+  bool isNullOrEmpty() => this == null || this == "";
+}

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_pw_validator/flutter_pw_validator.dart';
-import 'package:medinow/core/helper/app_regex.dart';
-import 'package:medinow/core/helper/spacing.dart';
-import 'package:medinow/core/widgets/app_text_feild.dart';
-import 'package:medinow/features/logic/login/login_cubit.dart';
+
+import '../../../core/helper/app_regex.dart';
+import '../../../core/helper/spacing.dart';
+import '../../../core/widgets/app_text_feild.dart';
+import '../../logic/login/login_cubit.dart';
 
 class EmailAndPassword extends StatefulWidget {
   const EmailAndPassword({super.key});

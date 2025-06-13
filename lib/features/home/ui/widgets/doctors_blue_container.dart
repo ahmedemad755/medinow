@@ -9,7 +9,7 @@ class DoctorsBlueContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 200.h,
+      height: 195.h,
       child: Stack(
         alignment: Alignment.bottomCenter,
         children: [
@@ -28,7 +28,7 @@ class DoctorsBlueContainer extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Bookee and\nschedule with\nnearest doctor',
+                  'Book and\nschedule with\nnearest doctor',
                   style: TextStyles.font18WhiteMedium,
                   textAlign: TextAlign.start,
                 ),

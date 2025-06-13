@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medinow/core/theme/style/styles.dart';
+import '../../../core/theme/style/styles.dart';
 
 class TermsAndConditionsText extends StatelessWidget {
   const TermsAndConditionsText({super.key});
